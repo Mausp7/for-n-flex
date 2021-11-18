@@ -76,6 +76,17 @@ body {
 	color: #fefcfd;
 	text-shadow: 3px 3px 10px rgba(0, 5, 5, 0.7);
 	
-	background-image: linear-gradient( #5d5d81 10%, #3b3355 90%);
+	background-image: linear-gradient(160deg, #5d5d81 10%, #3b3355 90%);
 	box-shadow: 8px 8px 15px rgba(254, 252, 253, 0.6);
+
+	transform: scale(1);
+	transition: transform;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+	transition-delay: 30ms;
+	cursor: pointer;
+}
+
+#root div:hover {
+	transform: scale(0.95);
 }
