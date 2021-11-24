@@ -26,7 +26,7 @@ function numFormatter(num, max) {
 
 function loadEvent() {
     const root = document.getElementById("root");
-    const list = generateArray(10);
+    const list = generateArray(20);
 
     if (list[0] !== "error") {
         for (const item of list) {
